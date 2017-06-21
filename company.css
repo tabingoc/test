@@ -1,0 +1,40 @@
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #323a45;
+  transition: all .3s;
+}
+header {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  line-height: 50px;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+}
+.left{
+  float: left;
+}
+.logo{
+  color: #777;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: 'Dosis', sans-serif;
+  padding-left: 20px;
+}
+.right{
+  float: right;
+}
+.right li {
+  float: left;
+}
+.right a{
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 20px;
+}
